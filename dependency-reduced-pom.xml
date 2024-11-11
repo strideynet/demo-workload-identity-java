@@ -69,6 +69,13 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/strideynet/demo-workload-identity-java</url>
+    </repository>
+  </distributionManagement>
   <properties>
     <junit5.version>5.8.1</junit5.version>
     <slf4j.version>1.7.28</slf4j.version>
